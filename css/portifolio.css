@@ -1,0 +1,83 @@
+/*--Formatação da página--*/
+body{
+    padding: 10px;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #e09b9b;
+    box-sizing: border-box;
+}
+
+/*--Um titulo mais centralizado--*/
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*--Colocar as imagens uma do lado da outra--*/
+#projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*--Centralizar mais as imagens--*/
+.projeto{
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/*--Ajuste na imagem, tamanho e largura mesmo tamanho, sem destorcer a imagem--*/
+.projeto img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.projeto h3{
+    margin: 10px 0 5px;
+}
+
+/*--Ajuatando a fonte de texto--*/
+.p{
+    font-size: 16px;    
+}
+
+/*--Um botão de acesso--*/
+.git {
+  text-align: center;   /* tudo dentro fica centralizado */
+  margin: 20px 0;
+}
+
+.texto {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/*--Link--*/
+.git a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #24292e;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/*--Movimento do mouse--*/
+.git a:hover {
+  background: #000;
+  transform: scale(1.05);
+}

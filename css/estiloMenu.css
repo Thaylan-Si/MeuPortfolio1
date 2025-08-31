@@ -1,0 +1,47 @@
+/*--Foi criado um css só para o menu, uma configuranção unica, que foi utilizada em todas as html--*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu padrão */
+#menu {
+  background: rgb(76, 76, 76);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+ /* position: sticky; /*--Deixar o menu visivel ao roletar a página--*/
+  top: 0;
+  z-index: 1000;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  white-space: nowrap; 
+}
+
+/* Menu responsivo no celular */
+@media (max-width: 600px) {
+  #menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu a {
+    width: 90%;
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+
+#menu a:hover {
+  background-color: #666; /*--Mudar de cor quando passar o mouse por cima--*/
+}
+

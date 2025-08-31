@@ -1,0 +1,30 @@
+/*--Ajustes de toda página--*/
+body{
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 222, 222);
+    box-sizing: border-box;
+}
+
+/*--Uma configuração de fonte para os títulos, podendo ser utilizado para varias ID e class--*/
+#formacao, #profissional, #idiomas{
+    margin: 0; 
+    padding: 0; 
+    text-align: justify; 
+    font-size: 40px; 
+}
+
+/*--Ajustando o tamanho da fonte--*/
+.content{
+    font-size: 20px;
+}
+
+/*--Ajustar a imagem para ficar na horizontal, oculpando todo o espaço, mas sem distorcer a qualidade da imagem--*/
+.img{
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    object-fit: cover; 
+}

@@ -1,0 +1,28 @@
+/*--Página inicial--*/
+/*--Colocar uma imagem de fundo--*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../imagem_sobre_mim/paissagem.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}

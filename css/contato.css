@@ -1,0 +1,66 @@
+/*--Configuração da página--*/
+body{
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #d88585;
+}
+
+/*--Título da página--*/
+.campo{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 5px; 
+}
+
+/*--Formulario--*/
+#form{
+    margin: 0 auto;
+    justify-content: center; 
+    padding: 30px;     
+}
+
+/*--Aumentar a largura e alinhar os elementos dentro da tag <label>--*/
+.campo label{
+    width: 100px; 
+    text-align: right; 
+}
+
+/*--Uma configuração da fonte das letras para os elementos que estiverem dentro das tag <input> e <textarea>--*/
+.campo input, .campo textarea{
+    width: 100%;
+    max-width: 400px;
+    font-size: 1em;
+    
+    
+}
+
+/*--Posicionar meu botão tanto para direita como para a esquerda--*/
+.botao{
+    margin-left: 100px; 
+    
+}
+
+.redes a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 12px 20px;
+    background: rgb(33, 88, 144);
+    border: 2px solid rgb(20, 20, 33);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+
+.redes a:hover{
+    background-color: yellowgreen;
+    transform: scale(1.05);
+}
+
+.redes a:visited{
+    color: white;
+}

@@ -1,0 +1,64 @@
+/*--Ajustes da página--*/
+body{
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 71);
+    box-sizing: border-box;
+}
+
+/*--Falando um pouco sobre mim--*/
+#nome{
+    background-color: rgb(210, 82, 124);
+    padding: 40px; 
+    text-align: center;  
+}
+
+/*--Meu parágrafo dentro da ID nome--*/
+.apresentando{
+    max-width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    text-align: justify; 
+    
+}
+
+/*--Centralizando o título--*/
+.titulo{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+/*--Meus Hobbies--*/
+#content{
+    width: 700px; 
+    margin: 0 auto ;
+    padding: 15px;
+}
+
+/*--Configurações das class dentro do ID content --*/
+.hobbies{
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background: #ffffff; 
+    text-align: justify; 
+}
+
+/*--Ajustando a fonte do texto dentro do ID content--*/
+.texto{
+    max-width: 90%;
+    font-size: 22px; 
+    text-align: justify;
+}
+
+/*--Alinhar todas as imagens no centro da página--*/
+.imagens{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px; /*arredondar a borda da imagem*/
+    
+}
