@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="css/estiloMenu.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+  <!--vou usar a tag <nav> para o conjuto de links -->
+  <nav id="menu">
+    <a href="index.html">Início</a>
+    <a href="sobreMim.html">Sobre Mim</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  
+  <!--Título da página-->  
+  <h1 class="contato">Contato</h1>
+  
+  <!--Inicio do meu formulario-->
+  <form id="form">
+    
+    <!--Usar uma <div> para organizar e manipular os elementos no css--> 
+    <!--O <input> para editar somente em uma linha-->
+    <div class="campo">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    
+    <!--O <input> para editar somente em uma linha-->
+    <div class="campo">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+    </div>
+    
+    <!--Usar o <textarea> para aumentar o campo da mensagem para escrever-->
+    <div class="campo">
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea>
+    </div>
+    
+    <!--No type='submit' serve para informar que todos os campos deve ser preenchidos para enviar a mensagem, caso esqueça de preencher algum, vai ser mostrado o campo que esta em branco ainda.-->
+    <div class="botao">
+      <button type="submit">Enviar</button>
+    </div>
+    <br>
+  </form>
+
+  <div class="redes">
+    <h3>Redes Sociais:</h3>
+    
+    <a  href="http://www.linkedin.com/in/thaylan-gomes-544ba1246/">Linkedin</a>
+    <br>
+    <a  href="https://www.instagram.com/thaylangomes?igsh=MWl6dDJ2NWkwYTRnNQ==">Instagram</a>
+    <br>
+    <a  href="https://github.com/Thaylan-Si">Github</a>
+  </div>
+</body>
+</html>
